@@ -1,0 +1,24 @@
+{
+    "Certificates":[
+        {
+          "img": "./assets/certificates/1.png",
+          "title": "FullStack Developer",
+          "academy": "SoyHenry"
+        },
+        {
+          "img": "./assets/certificates/2.jpg",
+          "title": "Master in CSS, and HTML",
+          "academy": "Udemy"
+        },
+        {
+          "img": "./assets/certificates/3.png",
+          "title": "UX/UI Design",
+          "academy": "Digitalmind"
+        },
+        {
+          "img": "./assets/certificates/4.png",
+          "title": "Vue JS",
+          "academy": "Udemy"
+        }
+      ]
+}

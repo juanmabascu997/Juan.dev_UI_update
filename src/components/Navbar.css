@@ -1,0 +1,11 @@
+
+.css-16093al-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected {
+    color: hotpink;
+}
+.css-16093al-MuiButtonBase-root-MuiBottomNavigationAction-root {
+  color: rgb(151, 151, 151);
+}
+
+.css-16093al-MuiButtonBase-root-MuiBottomNavigationAction-root:hover {
+    color: #222222;
+  }

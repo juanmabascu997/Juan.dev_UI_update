@@ -1,0 +1,30 @@
+/*Fuentes*/
+@font-face {
+  font-family: "blacksword";
+  src: url("fonts/blacksword/Blacksword.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "evogria";
+  src: url("fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto","system-ui","San Francisco","Segoe UI","Oxygen","Ubuntu",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  display: grid;
+}
