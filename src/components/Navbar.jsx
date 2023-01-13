@@ -5,7 +5,7 @@ import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import HomeIcon from "@mui/icons-material/Home";
 import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 import BoltIcon from "@mui/icons-material/Bolt";
-import "./Navbar.css";
+import "./Navbar.scss";
 import { setNewMenu } from "../redux/actions";
 import { useDispatch } from "react-redux";
 import { useNavigate } from 'react-router-dom';
