@@ -9,6 +9,17 @@ import "./Navbar.scss";
 import { setNewMenu } from "../redux/actions";
 import { useDispatch } from "react-redux";
 import { useNavigate } from 'react-router-dom';
+import { createTheme } from "@mui/material";
+
+const { palette } = createTheme();
+const { augmentColor } = palette;
+const createColor = (mainColor) => augmentColor({ color: { main: mainColor } });
+const theme = createTheme({
+  palette: {
+    hotpink: createColor('#ff69b4'),
+    grey: createColor('#22222')
+  },
+});
 
 export default function NavBar() {
   const [value, setValue] = React.useState(0);
@@ -31,9 +42,9 @@ export default function NavBar() {
           dispatch(setNewMenu(newValue))
         }} 
       >
-        <BottomNavigationAction sx={{ color: "black" }} label="Home" icon={<HomeIcon />} />
-        <BottomNavigationAction sx={{ color: "black" }} label="Projects" icon={<RocketLaunchIcon />} />
-        <BottomNavigationAction sx={{ color: "black" }} label="Skills" icon={<BoltIcon />} />
+        <BottomNavigationAction sx={{ color: "hotpink" }} label="Home" icon={<HomeIcon />} />
+        <BottomNavigationAction sx={{ color: "hotpink" }} label="Projects" icon={<RocketLaunchIcon />} />
+        <BottomNavigationAction sx={{ color: "hotpink" }} label="Skills" icon={<BoltIcon />} />
       </BottomNavigation>
     </Box>
   );

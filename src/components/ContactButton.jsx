@@ -60,6 +60,7 @@ export default function ContactButton() {
         sx={{ ml: 2 }}
         onClick={handleClickOpen}
         key="email"
+        title='Contact me'
       >
         <AlternateEmailIcon />
       </IconButton>
