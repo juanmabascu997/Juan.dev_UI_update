@@ -1,0 +1,20 @@
+{
+  "Contact": [
+    { 
+        "name": "facebook",
+        "url": "https://www.facebook.com/profile.php?id=100008957589786" 
+    },
+    { 
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/juanmabascu/" 
+    },
+    { 
+        "name": "instagram",
+        "url": "https://www.instagram.com/juanmabascu/?hl=es-la" 
+    },
+    { 
+        "name": "github",
+        "url": "https://github.com/juanmabascu997" 
+    }
+  ]
+}

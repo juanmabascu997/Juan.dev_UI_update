@@ -1,25 +1,17 @@
 import React from 'react'
-import { useSelector } from 'react-redux';
-import "./GlobalStyles.css";
+import "./Projects.scss";
 import Carrousel from '../components/Carrousel'
 
 export default function Projects() {
-  const menu = useSelector(state => state.menu);
 
-  return (<>
-    {
-      menu === 1 ? 
+  return (
       <div className='projects_container'>
         <div className='name_projects'>
-          <h1>Projects</h1>
+          <h2 className='subtitles'>My projects 🚀</h2> <p>pss, make click in the project name to see more</p>
         </div>
         <div className='data_projects'>
           <Carrousel />
         </div>
       </div>
-      :
-      <></>
-    }
-  </>
   )
 }

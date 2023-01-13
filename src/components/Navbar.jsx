@@ -8,10 +8,13 @@ import BoltIcon from "@mui/icons-material/Bolt";
 import "./Navbar.css";
 import { setNewMenu } from "../redux/actions";
 import { useDispatch } from "react-redux";
+import { useNavigate } from 'react-router-dom';
 
 export default function NavBar() {
   const [value, setValue] = React.useState(0);
   const dispatch = useDispatch();
+  const navigate = useNavigate();
+
   return (
     <Box sx={{ flexDirection: 'column' }} className="Nabvar">
       <BottomNavigation
@@ -20,6 +23,11 @@ export default function NavBar() {
         sx={{ flexDirection: 'column' }}
         onChange={(event, newValue) => {
           setValue(newValue);
+          newValue === 0 ? navigate('/') :
+          newValue === 1 ? navigate('/projects') :
+          newValue === 2 ? navigate('/skills') :
+          console.log()
+
           dispatch(setNewMenu(newValue))
         }} 
       >

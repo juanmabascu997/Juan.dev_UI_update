@@ -1,0 +1,24 @@
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    padding: 5px;
+}
+.form_contact {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group {
+    width: 50%;
+    .form-control {
+        width: 100%;
+        text-decoration: none;
+        font-family: "Roboto","Helvetica","Arial",sans-serif;
+    }
+
+    .form-control:focus-visible {
+        outline: none !important;
+    }
+}

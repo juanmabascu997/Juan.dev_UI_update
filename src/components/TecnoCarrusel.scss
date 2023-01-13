@@ -1,0 +1,20 @@
+.progress{
+    display: flex;
+    align-self: center;  
+    height: 20px;
+    width: 60%;
+    margin-bottom: 0px;
+  
+    div {
+      background-color: #FDEB39;
+    }
+}
+ 
+.card__tecno {
+  svg{
+    padding: 2px;
+    border: 1px solid rgb(182, 182, 182);
+    box-shadow: 2px 2px rgb(182, 182, 182);
+    border-radius: 5px;
+  }
+}

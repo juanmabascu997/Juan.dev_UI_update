@@ -13,6 +13,7 @@ import { SiPostgresql } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 import { SiFirebase} from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
+import "./TecnoCarrusel.scss";
 
 
 export default function TecnoCarrusel() {
@@ -22,11 +23,8 @@ export default function TecnoCarrusel() {
     <>
       {icons? icons.map( (icon , index) => {
         return (
-          <div key={index}>
-              <p className="legend">{icon.title}</p>
-                <div className="progress">
-                  <div className="progress-bar bg-warning" role="progressbar" aria-label="Success example" style={{width: icon.level+'%'}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+          <div key={index} className='card__tecno'>
+              <p>{icon.title}</p>
                 {
                   icon.icon==='React' ?<><FaReact/> React</>  :
                   icon.icon==='HTML5' ? <><FaHtml5/> HTML</> :

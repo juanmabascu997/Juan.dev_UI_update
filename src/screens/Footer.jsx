@@ -4,9 +4,10 @@ import './Footer.scss'
 
 
 export default function Footer() {
+
   return (
-    <div className='certificates_home'>
-        <p>Links of interes</p>
+    <div id='certificates_home' className='certificates_home'>
+        <p>Links of interest</p>
         <Certificates/>
     </div>
   )
