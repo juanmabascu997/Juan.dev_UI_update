@@ -27,7 +27,7 @@ export default function NavBar() {
   const navigate = useNavigate();
 
   return (
-    <Box sx={{ flexDirection: 'column' }} className="Nabvar">
+    <Box sx={{ flexDirection: 'column' }} className="Nabvar_container">
       <BottomNavigation
         showLabels
         value={value}
@@ -42,9 +42,9 @@ export default function NavBar() {
           dispatch(setNewMenu(newValue))
         }} 
       >
-        <BottomNavigationAction sx={{ color: "hotpink" }} label="Home" icon={<HomeIcon />} />
-        <BottomNavigationAction sx={{ color: "hotpink" }} label="Projects" icon={<RocketLaunchIcon />} />
-        <BottomNavigationAction sx={{ color: "hotpink" }} label="Skills" icon={<BoltIcon />} />
+        <BottomNavigationAction sx={{ color: "grey" }} label="Home" icon={<HomeIcon />} />
+        <BottomNavigationAction sx={{ color: "grey" }} label="Projects" icon={<RocketLaunchIcon />} />
+        <BottomNavigationAction sx={{ color: "grey" }} label="Skills" icon={<BoltIcon />} />
       </BottomNavigation>
     </Box>
   );

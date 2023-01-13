@@ -4,7 +4,17 @@ import { BsArrowDownCircle, BsArrowUpCircle } from "react-icons/bs";
 import { useDispatch, useSelector } from 'react-redux';
 import { setScrollDown } from '../redux/actions';
 import './RowDown.scss'
+import { createTheme } from "@mui/material";
 
+const { palette } = createTheme();
+const { augmentColor } = palette;
+const createColor = (mainColor) => augmentColor({ color: { main: mainColor } });
+const theme = createTheme({
+  palette: {
+    hotpink: createColor('#ff69b4'),
+    grey: createColor('#22222')
+  },
+});
 export default function RowDownComponent() {
     const scroll = useSelector( state => state.scroll)
     const dispatch = useDispatch();
@@ -25,7 +35,7 @@ export default function RowDownComponent() {
                 }
             }} 
         >
-            <BottomNavigationAction sx={{ color: "black" }} icon={scroll? <BsArrowDownCircle/> : <BsArrowUpCircle/>} />
+            <BottomNavigationAction sx={{ color: "grey" }} icon={scroll? <BsArrowDownCircle/> : <BsArrowUpCircle/>} />
         </BottomNavigation>
         
     </div>
