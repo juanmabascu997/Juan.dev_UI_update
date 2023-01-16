@@ -3,11 +3,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow-y: auto;
 }
 
 .carrousel_home {
     display: flex;
-    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     svg{
         font-size: 50px;
         color: hotpink;
@@ -26,3 +29,11 @@
     padding: 25px;
     font-style: normal;
 }
+
+@media (max-width: 591px) {
+    .skills_container {
+        padding-top: 30px;
+        height: 100%;        
+    }
+}
+

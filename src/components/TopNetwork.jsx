@@ -13,7 +13,7 @@ export default function TopNetwork() {
   }
 
   return (
-    <div className='top_container col-md-12'>
+    <div className='top_container'>
         <ContactButton />
 
         {

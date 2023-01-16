@@ -7,7 +7,7 @@ export default function Skills() {
   return (
         <div className='skills_container'>        
           <div className='name_projects'>
-            <h2 className='subtitles name_home'>Skills ⚡</h2> <p>  list of skills in which I consider myself competent</p>
+            <h2 className='subtitles'>Skills ⚡</h2> <p>  list of skills in which I consider myself competent</p>
           </div>    
           <div className='info_skills'>
             <p>I consider myself a responsible person,

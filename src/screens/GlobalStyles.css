@@ -74,14 +74,14 @@
 
   bottom: 78px;
   left: 0;
-  width: 34%;
+  width: 300px;
   height: 2px;
   opacity: 0;
 
   transition: opacity 300ms, transform 300ms;
 }
 
-.name_home:is(:hover,:focus)::after{
+.name_home::after{
   opacity: 1;
   transform: translateY(80px);
 }
@@ -100,3 +100,102 @@ p {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
 }
+
+
+@media (max-width: 766px) {
+  .name {    
+      margin-top: 50px;
+  }
+  .data {
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .certificates_home {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 50px;
+  }
+  
+  .home_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+
+  .contanier {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 150px 300px;
+    grid-template-rows: 100%;
+    grid-template-areas:
+        "sidebar main main main"
+        "footer footer footer footer";
+  }
+
+  .rowdown_home {
+      position: unset;
+  }
+
+}
+
+@media (max-width: 591px) {
+  .contanier {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 100% 1px;
+    grid-template-areas:
+        "sidebar main"
+        "footer footer";
+  }
+  .item-b {
+    height: calc(100vh - 41px);
+  }
+  .data {
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .item-c > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contanier {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100% 10px;
+    grid-template-areas:
+        "main"
+        "footer";
+  }
+  .home_container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+
+  .data {
+    align-items: center;
+  }
+}
+
+

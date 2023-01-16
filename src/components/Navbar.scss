@@ -2,8 +2,23 @@
     svg:hover{
         color: hotpink;
     }
+    .Mui-selected {
+        color: hotpink;
+    }
 }
 
 .css-16xhohb.Mui-selected {
     color: rgb(255 105 180);
 }
+
+
+@media (max-width: 591px) {
+    .item-c > div {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: unset;
+        align-items: flex-start;
+    }
+  }
