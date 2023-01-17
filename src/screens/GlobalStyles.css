@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.appbar__container {
+  display: none;
+}
+
 .name {
   display: flex;
   flex-direction: column;
@@ -70,7 +74,7 @@
   content: "";
   position: absolute;
 
-  background-color: hotpink;
+  background-color: #ff69b4;
 
   bottom: 78px;
   left: 0;
@@ -195,6 +199,13 @@ p {
 
   .data {
     align-items: center;
+  }
+
+  .appbar__container {
+    display:unset;
+  }
+  .top_container {
+    display: none;
   }
 }
 

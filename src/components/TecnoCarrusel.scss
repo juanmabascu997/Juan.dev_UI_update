@@ -11,6 +11,12 @@
 }
  
 .card__tecno {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
   svg{
     padding: 2px;
     border: 1px solid rgb(182, 182, 182);

@@ -7,7 +7,6 @@ import Skills from './screens/Skills'
 import Footer from './screens/Footer';
 import TopNetwork from './components/TopNetwork';
 import { Route, Routes } from 'react-router';
-import DrawerAppBar from './components/AppBar';
 
 function App() {
 
