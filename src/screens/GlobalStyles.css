@@ -172,6 +172,9 @@ p {
 
 
 @media (max-width: 425px) {
+  .item-c {
+    display: none;
+  }
   .item-c > div {
     height: 100%;
     display: flex;
