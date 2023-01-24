@@ -18,7 +18,7 @@ import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router';
 import { setNewMenu } from '../redux/actions';
 import { BsInfoCircle } from 'react-icons/bs'
-
+import './AppBar.scss'
 
 const pages = ['Home', 'Projects', 'Skills'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
