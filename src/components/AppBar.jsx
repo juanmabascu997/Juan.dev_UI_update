@@ -21,7 +21,7 @@ import { BsInfoCircle } from 'react-icons/bs'
 import './AppBar.scss'
 
 const pages = ['Home', 'Projects', 'Skills'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const settings = ['Instagram', 'Facebook', 'LinkedIn', 'GitHub', 'Correo'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -65,15 +65,16 @@ function ResponsiveAppBar() {
         main: '#ff69b4',
         contrastText: '#fff',
       },
-    },
+    }
   });
   
   return (
     <ThemeProvider theme={theme}>
       <AppBar position="static" className='appbar__container' sx={{
                 color: 'primary',
-                background: 'main'
-              }}>
+                background: 'main',
+                maxHeight: '100px'
+      }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -115,7 +116,7 @@ function ResponsiveAppBar() {
                 }}
                 keepMounted
                 transformOrigin={{
-                  vertical: 'top',
+                  vertical: 'left',
                   horizontal: 'left',
                 }}
                 open={Boolean(anchorElNav)}
