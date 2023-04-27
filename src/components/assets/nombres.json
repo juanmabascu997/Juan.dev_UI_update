@@ -4,6 +4,8 @@
       "title": "Note Keeper",
       "largeImage": "./assets/portfolio/9.PNG",
       "smallImage": "./portfolio/1.png",
+      "url": "https://ensolvers-challange.vercel.app/",
+      "git":"https://github.com/juanmabascu997/Ensolvers-challange-DeployFront",
       "technology": "HTLM, CSS, React, Mongo DB",
       "description": "App made for test in HTML/CSS course. I learned how to create web pages and web applications using HTML and CSS."
     },
@@ -22,6 +24,7 @@
       "largeImage": "./assets/portfolio/3.png",
       "smallImage": "./portfolio/3.png",
       "url": "https://weather-api-three-orpin.vercel.app/",
+      "git": "https://github.com/juanmabascu997/Weather-API",
       "technology": "HTLM, CSS, JavaScript, Styled Components, React, Redux, Axios, Versel",
       "description": "Weather app created using React, Redux, Axios, and Styled Components. I used the OpenWeather API to get the weather data."
     },
@@ -31,6 +34,7 @@
       "largeImage": "./assets/portfolio/4.png",
       "smallImage": "./portfolio/4.png",
       "url": "https://movies-finder-ten.vercel.app/",
+      "git":"https://github.com/juanmabascu997/Movies-Finder",
       "technology": "HTLM, CSS, JavaScript, Styled Components, React, Redux, Axios, Versel",
       "description": "Movie finder app I created using React, Redux, Axios, and Styled Components. I used the MovieDB API to get the movie data."
     },
@@ -39,6 +43,7 @@
       "largeImage": "./assets/portfolio/6.png",
       "smallImage": "./portfolio/6.png",
       "url": "https://dog-api-front.vercel.app/",
+      "git":"https://github.com/juanmabascu997/Dog-API-Front",
       "technology": "HTLM, CSS, JavaScript, Styled Components, React, Redux, Axios, Secualize, Postman, Postgres, Heroku, Versel",
       "description": "Dog breed app created using React, Redux, Axios, and Styled Components. I used the Dog API to get the dog breed data."
     },
@@ -47,22 +52,24 @@
       "largeImage": "./assets/portfolio/8.png",
       "smallImage": "./portfolio/8.png",
       "url": "https://your-job-seven.vercel.app/",
+      "git":"https://github.com/juanmabascu997/Your-Job",
       "technology": "HTLM, CSS, JavaScript, Styled Components, React, Redux, PostgreSQL, Heroku, Vercel, Bootstrap, Firebase, Stripe, Socket.io",
       "description": "A social network for job seekers. Worked with scrum methodology, and realtime database payment."
     },
     {
       "title": "Picking pro",
-      "largeImage": "./assets/portfolio/8.png",
+      "largeImage": "./assets/portfolio/10.PNG",
       "smallImage": "./portfolio/8.png",
-      "url": "https://your-job-seven.vercel.app/",
+      "url": "https://pickingpro-front-v2.vercel.app/",
+      "git":"https://github.com/juanmabascu997/pickingpro-front-v2",
       "technology": "HTLM, CSS, JavaScript, Styled Components, React, Redux, PostgreSQL, Heroku, Vercel, Bootstrap, Firebase, Stripe, Socket.io",
       "description": "A social network for job seekers. Worked with scrum methodology, and realtime database payment."
     },
     {
       "title": "SM Clothes API",
-      "largeImage": "./assets/portfolio/8.png",
+      "largeImage": "./assets/portfolio/11.PNG",
       "smallImage": "./portfolio/8.png",
-      "url": "https://your-job-seven.vercel.app/",
+      "git":"https://github.com/juanmabascu997/SM-Clothes-API",
       "technology": "HTLM, CSS, JavaScript, Styled Components, React, Redux, PostgreSQL, Heroku, Vercel, Bootstrap, Firebase, Stripe, Socket.io",
       "description": "A social network for job seekers. Worked with scrum methodology, and realtime database payment."
     }
