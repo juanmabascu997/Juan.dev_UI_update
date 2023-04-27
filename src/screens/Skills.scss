@@ -8,10 +8,13 @@
 }
 
 .carrousel_home {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: column;
+        overflow: auto;
+        align-content: center;
+      
     svg{
         font-size: 50px;
         color: hotpink;

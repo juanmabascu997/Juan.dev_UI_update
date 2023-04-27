@@ -4,17 +4,13 @@
     flex-wrap: wrap !important;
     align-items: center !important;
     width: 50% !important;
-    height: 100% !important;
-    max-height: calc(100%) !important;
-    top: 0px !important;
-    left: 0px !important;
-    box-shadow: 200px 0px rgb(0 0 0 / 60%);
+    height: -webkit-fill-available;
 }
 
-.css-6hp17o-MuiList-root-MuiMenu-list {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: 100%;
-    justify-content: space-evenly;
-}
+// .css-6hp17o-MuiList-root-MuiMenu-list {
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: nowrap;
+//     height: 100%;
+//     justify-content: space-evenly;
+// }
