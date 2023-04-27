@@ -2,7 +2,7 @@
   "Gallery": [
     {
       "title": "Note Keeper",
-      "largeImage": "./assets/portfolio/1.png",
+      "largeImage": "./assets/portfolio/9.PNG",
       "smallImage": "./portfolio/1.png",
       "technology": "HTLM, CSS, React, Mongo DB",
       "description": "App made for test in HTML/CSS course. I learned how to create web pages and web applications using HTML and CSS."
