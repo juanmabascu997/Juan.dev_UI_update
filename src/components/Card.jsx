@@ -29,6 +29,11 @@ export default function CardProject({data}) {
     }
   });
 
+  function onClickMannager (url) {
+    window.open(url, '_blank', 'noreferrer')
+  }
+  
+
   return (
     <ThemeProvider theme={theme}>
         <Card sx={{ display: 'flex' }} className='card__projects'>
@@ -42,11 +47,11 @@ export default function CardProject({data}) {
                     <IconButton aria-label="play/pause">
                         <FiInfo sx={{ height: 20, width: 20 }} />
                     </IconButton>
-                    <IconButton aria-label="play/pause">
-                        <PlayArrowIcon sx={{ height: 25, width: 25 }} />
+                    <IconButton aria-label="play/pause" disabled={!data.url}>
+                        <PlayArrowIcon sx={{ height: 25, width: 25 }} onClick={() =>{ onClickMannager(data.url)}} />
                     </IconButton>
-                    <IconButton aria-label="play/pause">
-                        <AiOutlineGithub  sx={{ height: 25, width: 25 }}/>
+                    <IconButton aria-label="play/pause" disabled={!data.git}>
+                        <AiOutlineGithub  sx={{ height: 25, width: 25 }} onClick={() =>{ onClickMannager(data.git)}} />
                     </IconButton>
                 </Box>
             </Box>
