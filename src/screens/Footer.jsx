@@ -6,9 +6,11 @@ import './Footer.scss'
 export default function Footer() {
 
   return (
-    <div id='certificates_home' className='certificates_home'>
+    <div className='certificates_home '>
+      <div>
         <p>Links of interest</p>
-        <Certificates/>
+      </div>
+      <Certificates/>
     </div>
   )
 }

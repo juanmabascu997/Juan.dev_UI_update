@@ -5,7 +5,16 @@
     flex-direction: column;
     justify-content: center;
   }
-  
+
+.data_projects {
+  display: flex;
+  flex-direction: row;
+  gap: 33px;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: flex-start;
+  overflow-y: auto;
+}
   .name_projects {
     display: flex;
     align-items: baseline;

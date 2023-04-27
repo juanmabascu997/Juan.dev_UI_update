@@ -54,13 +54,13 @@
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.data{
-  height: 56%;
-  padding: 10px;
+.data_home{
+  height: 100%;
+  padding: 60px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .name_home {
@@ -110,7 +110,7 @@ p {
   .name {    
       margin-top: 50px;
   }
-  .data {
+  .data_home {
     height: 100%;
     padding: 10px;
     display: flex;
@@ -165,7 +165,7 @@ p {
   .item-b {
     height: calc(100vh - 41px);
   }
-  .data {
+  .data_home {
     align-items: center;
   }
 }
@@ -198,10 +198,6 @@ p {
     align-items: center;
     flex-direction: column;
     overflow-y: scroll;
-  }
-
-  .data {
-    align-items: center;
   }
 
   .appbar__container {
