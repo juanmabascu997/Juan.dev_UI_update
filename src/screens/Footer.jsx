@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <div className='certificates_home '>
       <div>
-        <p>Links of interest</p>
+        <p>Certificates and curriculum vitae 👇</p>
       </div>
       <Certificates/>
     </div>

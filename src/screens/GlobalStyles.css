@@ -23,7 +23,7 @@
   font-weight: bolder;
   letter-spacing: -2px;
 }
-.carrousel_home{
+/* .carrousel_home{
   flex-direction: column;
   width: 100%;
   align-items: stretch;
@@ -32,7 +32,7 @@
   max-height: 250px;
   align-content: stretch;
   gap: 20px;
-}
+} */
 .progress{
   display: flex;
   align-self: center;  

@@ -9,9 +9,14 @@
     }
 }
 .button_certificates{
-    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     width: 100%;
     padding: 1.25rem;
+    a {
+        margin: 5px;
+    }
 }
 a {
     font-style: normal;
