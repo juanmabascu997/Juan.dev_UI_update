@@ -11,6 +11,7 @@ import { ThemeProvider } from '@emotion/react';
 import './Card.scss'
 import { AiOutlineGithub } from 'react-icons/ai'
 import { FiInfo } from 'react-icons/fi'
+import { motion } from "framer-motion";
 
 export default function CardProject({data}) {
   const theme = createTheme({
@@ -36,6 +37,17 @@ export default function CardProject({data}) {
 
   return (
     <ThemeProvider theme={theme}>
+      <motion.button
+        initial={{ transparency: 0 }}
+        whileHover={{
+          scale: 1.1,
+          transition: { duration: 0.5 },
+        }}
+        whileTap={{ scale: 0.9 }}
+        whileInView={{ transparency: 0 }}
+        className='motionButton'
+      >
+        
         <Card sx={{ display: 'flex' }} className='card__projects'>
             <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                 <CardContent sx={{ flex: '1 0 auto' }}>
@@ -62,6 +74,7 @@ export default function CardProject({data}) {
                 alt="alt"
             />
             </Card>
+      </motion.button>
     </ThemeProvider>
   );
 }
