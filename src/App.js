@@ -36,42 +36,24 @@ function App() {
           className='background__motion'
         >
           <motion.circle
-            cx="100"
-            cy="500"
+            cx="770"
+            cy="20"
             r="80"
-            stroke="#69a5ff"
+            stroke="#83E874"
             variants={draw}
             custom={1}
-          />
-          <motion.rect
-            width="140"
-            height="140"
-            x="410"
-            y="30"
-            rx="20"
-            stroke="#ff69b4"
-            variants={draw}
-            custom={3}
-          />
-          <motion.line
-            x1="220"
-            y1="230"
-            x2="360"
-            y2="370"
-            stroke="#ff69b4"
-            custom={3}
-            variants={draw}
-          />
-          <motion.line
-            x1="220"
-            y1="370"
-            x2="360"
-            y2="230"
-            stroke="#ff69b4"
-            custom={3.5}
-            variants={draw}
+            className="circleGreen an"
           />
 
+          <motion.circle
+            cx="770"
+            cy="20"
+            r="80"
+            stroke="#69A5FF"
+            variants={draw}
+            custom={1}
+            className="circleBlue"
+          />
         </motion.svg>
       </div>
       <div className='item-c'>

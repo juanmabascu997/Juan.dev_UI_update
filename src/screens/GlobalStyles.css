@@ -68,14 +68,19 @@
   display: flex;
   flex-direction: column;
 }
-circle,
-rect,
-line {
-  stroke-width: 10px;
+circle {
+  stroke-width: 250px;
   stroke-linecap: round;
   fill: none;
 }
 
+.circleGreen{
+  stroke: #83E874 !important;
+}
+
+.circleBlue{
+  stroke: #69A5FF !important;
+}
 
 .data_home{
   height: 100%;
@@ -113,13 +118,40 @@ line {
   transform: translateY(80px);
 }
 
+/* Efecto en burbuja */
+.an{
+  animation-name: flo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+  bottom: 80px;
+  left:20px;
+
+}
+@keyframes flo{
+  25%{
+    transform: translateX(-60px);
+  }
+  50%{
+    transform: translateY(60px);
+  }
+}
+/* Fin efecto en burbuja */
 
 .title_home {
   font-weight: lighter;
   margin-top: 0px;
   padding-left: 5px;
   padding-top: 0px;
-  mix-blend-mode:color;
+  color: #000;
+}
+
+.subtitle_home {
+  font-weight: lighter;
+  margin-top: 0px;
+  padding-left: 5px;
+  padding-top: 0px;
+  mix-blend-mode:color-burn;
   color: #000;
 }
 
@@ -230,6 +262,10 @@ p {
   }
   .top_container {
     display: none;
+  }
+
+  circle {
+    stroke-width: 850px;
   }
 }
 

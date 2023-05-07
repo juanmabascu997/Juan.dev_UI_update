@@ -13,7 +13,7 @@ export default function Home() {
             <div>
               <h1 className='name_home'>Juan Manuel Bascuñan</h1>
               <h2 className='title_home'>Front End Developer</h2>
-              <p>I am a 25-year-old developer from San Luis, Argentina. I consider myself an adaptable, active, persistent and proactive; someone who focuses on a task and executes it effectively. I adapt easily to teamwork and their goals. I constantly look for continuous growth and to keep increasing my knowledge.</p>
+              <p className='subtitle_home'>I am a 25-year-old developer from San Luis, Argentina. I consider myself an adaptable, active, persistent and proactive; someone who focuses on a task and executes it effectively. I adapt easily to teamwork and their goals. I constantly look for continuous growth and to keep increasing my knowledge.</p>
             </div>
             <Footer/>
           </div>
