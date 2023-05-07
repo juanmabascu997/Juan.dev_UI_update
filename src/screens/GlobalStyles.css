@@ -61,7 +61,6 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  mix-blend-mode: difference;
   color: #d3d3d3;
 }
 .background__motion{
