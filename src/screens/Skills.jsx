@@ -10,7 +10,7 @@ export default function Skills() {
             <h2 className='subtitles'>Skills ⚡</h2> <p>  list of skills in which I consider myself competent</p>
           </div>    
           <div className='info_skills'>
-            <p>I consider myself a responsible person,
+            <p className='subtitle_home'>I consider myself a responsible person,
                 with many skills to contribute to the
                 team.
                 I think that working as a team can

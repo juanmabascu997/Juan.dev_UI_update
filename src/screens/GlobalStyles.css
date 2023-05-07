@@ -147,11 +147,10 @@ circle {
 }
 
 .subtitle_home {
-  font-weight: lighter;
+  font-weight: 600;  
   margin-top: 0px;
   padding-left: 5px;
   padding-top: 0px;
-  mix-blend-mode:color-burn;
   color: #000;
 }
 
