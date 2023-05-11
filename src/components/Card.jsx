@@ -56,9 +56,9 @@ export default function CardProject({data}) {
                     </Typography>
                 </CardContent>
                 <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
-                    <IconButton aria-label="play/pause">
+                    {/* <IconButton aria-label="play/pause">
                         <FiInfo sx={{ height: 20, width: 20 }} />
-                    </IconButton>
+                    </IconButton> */}
                     <IconButton aria-label="play/pause" disabled={!data.url}>
                         <PlayArrowIcon sx={{ height: 25, width: 25 }} onClick={() =>{ onClickMannager(data.url)}} />
                     </IconButton>
